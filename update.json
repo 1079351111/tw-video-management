@@ -1,9 +1,14 @@
 {
   "code": 200,
   "msg": "更新数据列表",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "systemIntro": "原生态开发的视频管理系统，主要用于管理苹果CMS视频数据，支持多线程并发视频采集、视频管理、用户管理和系统设置。系统支持从多个资源站采集视频数据，并支持重名视频自动合并、定时合并与手动合并视频，特别解决了苹果CMS原始采集速度慢和重名视频数据的问题。",
   "list": [
+    {
+      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.6 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1. 采集/合并:优化内存占用，优化线程避免拥堵<br>2.合并/采集日志配置都要根据配置文件的days进行保留天数<br>3.采集任务:分页+日期区间查询+源id查询+倒计时特效<br>4.并发采集太快导致访问太频繁，被对方服务器限制优化<br>5.合并日志首次使用过大问题优化<br>6.新增一个白色风格框架，可以一键切换暗黑或白色<br>7.登录问题优化</span></div>",
+      "updata": "2026-06-04",
+      "version": "1.1.6"
+    },
     {
       "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.5 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1. 增强合并视频:数据清洗数据合并乱合并问题。<br>2. 合并日志：优化页面加载大数据卡顿问题<br>3. 采集管理:新增采集兼容json格式<br>4. 页面UI:更新整个页面UI设计风格<br>5. 采集任务:优化采集速度，可以手动停止采集任务，可以多个采集任务并行，去除自动合并重名数据<br>6. 资源库分类:美化一键绑定样式，绑定本地分类自动展示子父级归类<br>7. 定时采集配置:可编辑定时任务地址，改变采集地址时候自动变更定时任务,同一个源站可创建多个任务<br>8. 增加新菜单:采集任务管理,可预览实时采集任务执行状态可手动停止采集任务。</span></div>",
       "updata": "2026-05-22",
