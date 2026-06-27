@@ -1,9 +1,14 @@
 {
   "code": 200,
   "msg": "更新数据列表",
-  "version": "1.1.7",
-  "systemIntro": "原生态开发的视频管理系统，主要用于管理苹果CMS视频数据，支持多线程并发视频采集、视频管理、用户管理和系统设置。系统支持从多个资源站采集视频数据，并支持重名视频自动合并、定时合并与手动合并视频，特别解决了苹果CMS原始采集速度慢和重名视频数据的问题。",
+  "version": "1.1.8",
+  "systemIntro": "原生态开发的视频管理系统，主要用于管理苹果CMS视频数据，支持多线程并发视频采集、视频管理、用户管理和系统设置。系统支持从多个资源站采集视频数据，并支持重名视频自动合并、定时合并与手动合并视频，特别解决了苹果CMS原始采集速度慢和重名视频数据的问题。最新版本V1.1.8",
   "list": [
+    {
+      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.8 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.视频管理添加多个筛选<br>2.开启图片防盗链可填入域名前缀或者选择自带防盗接口<br>3.连接cms数据库默认前台自定义配<br>4.本地数据存储方式更换sqlite数据库<br>5.新增程序配置菜单:可配置合并/采集日志保留天数，登录密钥配置<br>6.优化合并日志查看详情大数据卡顿问题,新增合并日志详情页<br>7.优化授权问题总出现自动掉授权问题<br><br><strong>更新后操作提示：</strong><br>版本更新完成启动前，可删除目录：<br>config/backup_json<br>config/merge<br>本次更新不再同步历史合并日志数据</span></div>",
+      "updata": "2026-06-27",
+      "version": "1.1.8"
+    },
     {
       "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.7 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.让采集转发，接口入库方式速度更快<br>2.白色风格为默认风格<br>3.系统配置可以设置图片防盗链是否开启<br>4.优化项目启动端口自定义问题（请看8.3.2文档操作）<br>5.优化合并规则，严格/打分合并模式加入:扩展分类，简介，详情，剧集<br>6.合并日志优化:跳过详情不展示问题<br>7.视频管理:新增一键合并按钮，新增简介 详情<br>8.增强合并:标题清洗开关: 可控制清洗后是否保存清洗后的影名<br>9.视频管理:新增手动验证，选两个或多个视频进行合并验证,展示是否可合并以及合并不上的原因是什么。</span></div>",
       "updata": "2026-06-14",
