@@ -1,11 +1,16 @@
 {
   "code": 200,
   "msg": "更新数据列表",
-  "version": "1.1.8",
-  "systemIntro": "原生态开发的视频管理系统，主要用于管理苹果CMS视频数据，支持多线程并发视频采集、视频管理、用户管理和系统设置。系统支持从多个资源站采集视频数据，并支持重名视频自动合并、定时合并与手动合并视频，特别解决了苹果CMS原始采集速度慢和重名视频数据的问题。最新版本V1.1.8",
+  "version": "1.1.9",
+  "systemIntro": "原生态开发的视频管理系统，主要用于管理苹果CMS视频数据，支持多线程并发视频采集、视频管理、用户管理和系统设置。系统支持从多个资源站采集视频数据，并支持重名视频自动合并、定时合并与手动合并视频，特别解决了苹果CMS原始采集速度慢和重名视频数据的问题。",
   "list": [
     {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.8 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.视频管理添加多个筛选<br>2.开启图片防盗链可填入域名前缀或者选择自带防盗接口<br>3.连接cms数据库默认前台自定义配<br>4.本地数据存储方式更换sqlite数据库<br>5.新增程序配置菜单:可配置合并/采集日志保留天数，登录密钥配置<br>6.优化合并日志查看详情大数据卡顿问题,新增合并日志详情页<br>7.优化授权问题总出现自动掉授权问题<br><br><strong>更新后操作提示：</strong><br>版本更新完成启动前，可删除目录：<br>config/backup_json<br>config/merge<br>本次更新不再同步历史合并日志数据</span></div>",
+      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.9 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.修复视频查询单独名称查询问题<br>2.修复长时间占用内存问题<br>3.新增:一键验证菜单:自动合并验证可一键验证<br>4.新增:一键图片有效验证并且可批量替换和一键替换，验证记录可查看<br>5.修复采集绑定分类问题，绑定一次分类然后又取消绑定分类会在采集任务还会采集问题。<br>6.视频管理：查看内容新增海报图查看,分页可以手动填入页码进行查询并且优化查询。<br>7.采集新增采集月和自定义时间采集</span></div>",
+      "updata": "2026-07-16",
+      "version": "1.1.9"
+    },
+    {
+      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.8 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">[x] 1.视频管理添加多个筛选<br>[x] 2.开启图片防盗链可填入域名前缀或者选择自带防盗接口<br>[x] 3.连接cms数据库默认前台自定义配<br>[x] 4.本地数据存储方式更换sqlite数据库<br>[x] 5.新增程序配置菜单:可配置合并/采集日志保留天数，登录密钥配置<br>[x] 6.优化合并日志查看详情大数据卡顿问题,新增合并日志详情页<br>[x] 7.优化授权问题总出现自动掉授权问题<br><br><strong>更新后操作提示：</strong><br>版本更新完成启动前，可删除目录：<br>config/backup_json<br>config/merge<br>本次更新不再同步历史合并日志数据</span></div>",
       "updata": "2026-06-27",
       "version": "1.1.8"
     },
