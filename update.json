@@ -2,7 +2,10 @@
 	"code": 200,
 	"msg": "更新数据列表",
 	"version": "1.1.9",
-	"downloadUrl": "https://gitee.com/yangyang888/tw-video-management/releases/download/1.1.9/v1.1.9%E6%9B%B4%E6%96%B0%E5%8C%85.zip",
+	"downloadUrl": [
+		"https://gitee.com/yangyang888/tw-video-management/releases/download/1.1.9/v1.1.9%E6%9B%B4%E6%96%B0%E5%8C%85.zip",
+		"https://github.com/1079351111/tw-video-management/edit/main/ysname-update.zip"
+	],
 	"systemIntro": "原生态开发的视频管理系统，主要用于管理苹果CMS视频数据，支持多线程并发视频采集、视频管理、用户管理和系统设置。系统支持从多个资源站采集视频数据，并支持重名视频自动合并、定时合并与手动合并视频，特别解决了苹果CMS原始采集速度慢和重名视频数据的问题。",
 	"list": [{
 			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.9 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.修复视频查询单独名称查询问题<br>2.修复长时间占用内存问题<br>3.新增:一键验证菜单:自动合并验证可一键验证<br>4.新增:一键图片有效验证并且可批量替换和一键替换，验证记录可查看<br>5.修复采集绑定分类问题，绑定一次分类然后又取消绑定分类会在采集任务还会采集问题。<br>6.视频管理：查看内容新增海报图查看,分页可以手动填入页码进行查询并且优化查询。<br>7.采集新增采集月和自定义时间采集</span></div>",
