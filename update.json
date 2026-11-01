@@ -1,97 +1,102 @@
 {
-  "code": 200,
-  "msg": "更新数据列表",
-  "version": "1.2.0",
-  "downloadUrl": [
-    "https://gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.0/v1.2.0.zip",
-    "https://v4.gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.0/v1.2.0.zip",
-    "https://v6.gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.0/v1.2.0.zip",
-    "https://cdn.gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.0/v1.2.0.zip",
-    "https://axisnow.gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.0/v1.2.0.zip",
-    "https://ghfast.top/https://github.com/1079351111/tw-video-management/releases/download/v1.2.0/v1.2.0.zip",
-    "https://github.com/1079351111/tw-video-management/releases/download/v1.2.0/v1.2.0.zip"
-  ],
-  "systemIntro": "原生态开发的视频管理系统，主要用于管理苹果CMS视频数据，支持多线程并发视频采集、视频管理、合并规则管理和系统设置。系统支持从多个资源站采集视频数据，并支持重名视频自动合并、定时合并与手动合并视频，特别解决了苹果CMS原始采集速度慢和重名视频数据的问题。",
-  "list": [
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.2.0 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.修复打分模式:手动验证和自动合并问题，手动验证可以合并，自动合并却不可以的问题<br>2.采集任务页面 新增: 一键停止所有任务按钮,并且优化偶尔采集进度不动问题<br>3.程序配置 新增:采集性能配置(智能配置避免并发采集量太大高占用CPU)增加熔断避免瞬红cpu。<br>4.程序配置 新增:程序重启配置（页面可手动重启程序）<br>5.api接口入库方式 采集任务 某个影片失败时加返回的失败信息。<br>6.修复采集任务页面 失败数一直是 0<br>7.优化手机端白色风格菜单样式<br>8.优化内存占用新增 采集模块内存监控<br>9.优化视频管理手动验证合并页面样式<br>10.新增菜单功能:合并规则库,自动记录手动合并到规则库，在系统配置中可更改，而且支持手动新增规则（这样解决下次自动采集重复数据没有匹配到但是不更新问题）<br>11.新增菜单:系统更新 ,自动检测版本升级，点击升级自动处理升级并重启<br>12.采集数据库入库方式:定时/手动方式加可控重名合并规则进行排查后入库做到实时重名合并。(大量采集建议关闭，仅日采开启)<br>13.视频管理新增:清空所有视频按钮，批量操作视频按钮。<br><br><strong>更新后操作提示：</strong><br>更新完成后，请保存系统配置、程序配置。</span></div>",
-      "updata": "2026-08-17",
-      "version": "1.2.0"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.9 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.修复视频查询单独名称查询问题<br>2.修复长时间占用内存问题<br>3.新增:一键验证菜单:自动合并验证可一键验证<br>4.新增:一键图片有效验证并且可批量替换和一键替换，验证记录可查看<br>5.修复采集绑定分类问题，绑定一次分类然后又取消绑定分类会在采集任务还会采集问题。<br>6.视频管理：查看内容新增海报图查看,分页可以手动填入页码进行查询并且优化查询。<br>7.采集新增采集月和自定义时间采集</span></div>",
-      "updata": "2026-07-16",
-      "version": "1.1.9"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.8 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">[x] 1.视频管理添加多个筛选<br>[x] 2.开启图片防盗链可填入域名前缀或者选择自带防盗接口<br>[x] 3.连接cms数据库默认前台自定义配<br>[x] 4.本地数据存储方式更换sqlite数据库<br>[x] 5.新增程序配置菜单:可配置合并/采集日志保留天数，登录密钥配置<br>[x] 6.优化合并日志查看详情大数据卡顿问题,新增合并日志详情页<br>[x] 7.优化授权问题总出现自动掉授权问题<br><br><strong>更新后操作提示：</strong><br>版本更新完成启动前，可删除目录：<br>config/backup_json<br>config/merge<br>本次更新不再同步历史合并日志数据</span></div>",
-      "updata": "2026-06-27",
-      "version": "1.1.8"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.7 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.让采集转发，接口入库方式速度更快<br>2.白色风格为默认风格<br>3.系统配置可以设置图片防盗链是否开启<br>4.优化项目启动端口自定义问题（请看8.3.2文档操作）<br>5.优化合并规则，严格/打分合并模式加入:扩展分类，简介，详情，剧集<br>6.合并日志优化:跳过详情不展示问题<br>7.视频管理:新增一键合并按钮，新增简介 详情<br>8.增强合并:标题清洗开关: 可控制清洗后是否保存清洗后的影名<br>9.视频管理:新增手动验证，选两个或多个视频进行合并验证,展示是否可合并以及合并不上的原因是什么。</span></div>",
-      "updata": "2026-06-14",
-      "version": "1.1.7"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.6 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1. 采集/合并:优化内存占用，优化线程避免拥堵<br>2.合并/采集日志配置都要根据配置文件的days进行保留天数<br>3.采集任务:分页+日期区间查询+源id查询+倒计时特效<br>4.并发采集太快导致访问太频繁，被对方服务器限制优化<br>5.合并日志首次使用过大问题优化<br>6.新增一个白色风格框架，可以一键切换暗黑或白色<br>7.登录问题优化</span></div>",
-      "updata": "2026-06-04",
-      "version": "1.1.6"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.5 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1. 增强合并视频:数据清洗数据合并乱合并问题。<br>2. 合并日志：优化页面加载大数据卡顿问题<br>3. 采集管理:新增采集兼容json格式<br>4. 页面UI:更新整个页面UI设计风格<br>5. 采集任务:优化采集速度，可以手动停止采集任务，可以多个采集任务并行，去除自动合并重名数据<br>6. 资源库分类:美化一键绑定样式，绑定本地分类自动展示子父级归类<br>7. 定时采集配置:可编辑定时任务地址，改变采集地址时候自动变更定时任务,同一个源站可创建多个任务<br>8. 增加新菜单:采集任务管理,可预览实时采集任务执行状态可手动停止采集任务。</span></div>",
-      "updata": "2026-05-22",
-      "version": "1.1.5"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-blue);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.4 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1. 系统设置新增:增强合并匹配模式配置开启后 自动合并多级匹配规则将失效完全按照增强合并规则。<br>2. 优化增强合并日志: 显示具体合并不上的原因<br>3. 优化设置页面: 选择框展示不全问题<br>4. 优化采集页面绑定分类: 重新绑定分类偶尔出现不保存问题，重新绑定分类可以选择不选（也就是选择 请选择本地分类）<br>5. 优化采集管理 入库问题:关闭cms接口入库方式使用纯入库方式会出现没有分类问题<br>6. 优化视频管理:合并视频弹框 提示加载中...问题</span></div>",
-      "updata": "2026-04-19",
-      "version": "1.1.4"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #818cf8;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.3 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 视频管理：优化视频管理搜索支持所有视频和重名视频，优化查询速度支持百万级查询<br>• 视频管理：优化视频页面搜索可以回车查询<br>• 合并日志:新增合并日志记录手动合并和自动合并的日志信息（仅保留30天的）<br>• 合并日志:新增合并日志记录手动合并和自动合并的大小控制<br>• 采集管理:任务列表仅保留30天的，避免占用空间。</span></div>",
-      "updata": "2026-04-01",
-      "version": "1.1.3"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #22d3ee;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.2 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 定时采集功能：新增定时采集功能，支持配置Cron表达式实现定时自动采集<br>• Cron表达式生成器：系统配置页面增加Cron表达式生成器，方便用户生成定时任务时间表达式<br>• 系统配置优化：优化系统配置定时任务功能<br>• 优化:采集管理无法读取任务列表问题 日志不生成问题<br>• 优化登录漏洞，优化采集失败问题，优化数据库连接，优化搜索展示页面<br>• 采集任务执行速度，数据库入库方式 ，采集重名入库问题 增加规则匹配</span></div>",
-      "updata": "2026-03-28",
-      "version": "1.1.2"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #fb923c;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.1 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 视频管理优化：视频管理页面点击查看视频时支持显示播放地址<br>• 页面美化：美化视频管理页面，增加预加载效果</span></div>",
-      "updata": "2026-03-26",
-      "version": "1.1.1"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #7dcfff;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.0 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 页面导航优化：视频页面添加导航到采集页面的链接<br>• 采集任务弹框美化：美化采集任务弹框，提升用户体验<br>• 采集资源库绑定：新增采集资源库绑定资源库分类功能<br>• 分类表格显示：资源库绑定页面支持显示隐藏分类表格<br>• 分类绑定操作：新增一键绑定分类和一键取消绑定功能<br>• 用户信息优化：清空userMap，避免旧用户信息残留<br>• 响应式布局：优化页面样式响应式布局，适配不同设备</span></div>",
-      "updata": "2026-03-25",
-      "version": "1.1.0"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #c7a0ff;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.9 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 图片加载问题：修复查看页面图片不加载的问题</span></div>",
-      "updata": "2026-03-24",
-      "version": "1.0.9"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #a0aec0;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.8 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 采集功能优化：点击资源站可进行搜索采集，也可以绑定资源站的分类id<br>• XML采集完善：完善XML格式采集入库功能<br>• 采集功能完善：整体完善采集功能</span></div>",
-      "updata": "2026-03-23",
-      "version": "1.0.8"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #67e8f9;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.7 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 文件操作优化：在文件删除操作中添加了重试逻辑<br>• 日志记录：增加了详细的日志记录，便于调试<br>• 线程处理：确保线程中断状态被正确处理<br>• 批量采集入库支持数据库入库和接口入库两种方式<br>• 页面提示：优化页面提示信息<br>• 合并更新时间：完善新增是否开启合并更新时间功能，自动合并和手动合并均有效</span></div>",
-      "updata": "2026-03-22",
-      "version": "1.0.7"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #fb923c;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.6 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 手动合并优化：优化手动合并问题<br>• 包引入优化：优化包引入<br>• 系统配置完善：完善系统配置可配置自动运行重名信息<br>• 管理后台：完善小管理后台处理重名数据功能<br>• 图片接口优化：修复图片接口401问题</span></div>",
-      "updata": "2026-03-21",
-      "version": "1.0.6"
-    },
-    {
-      "con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #7dcfff;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.5 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 配置页功能：新增配置页功能，是否开启合并更新时间<br>• 采集管理页面：新增采集管理页面，增加采集绑定功能<br>• 系统配置：新增管理页面等系统配置<br>• 重名数据处理：优化重名数据处理，新增手动合并是否验证多级匹配规则</span></div>",
-      "updata": "2026-03-20",
-      "version": "1.0.5"
-    }
-  ]
+	"code": 200,
+	"msg": "更新数据列表",
+	"version": "1.2.1",
+	"downloadUrl": [
+		"https://gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.1/ysname.zip",
+		"https://v4.gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.1/ysname.zip",
+		"https://v6.gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.1/ysname.zip",
+		"https://cdn.gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.1/ysname.zip",
+		"https://axisnow.gh-proxy.org/https://github.com/1079351111/tw-video-management/releases/download/v1.2.1/ysname.zip",
+		"https://ghfast.top/https://github.com/1079351111/tw-video-management/releases/download/v1.2.1/ysname.zip",
+		"https://github.com/1079351111/tw-video-management/releases/download/v1.2.1/ysname.zip"
+	],
+	"systemIntro": "原生态开发的视频管理系统，主要用于管理苹果CMS视频数据，支持多线程并发视频采集、视频管理、合并规则管理和系统设置。系统支持从多个资源站采集视频数据，并支持重名视频自动合并、定时合并与手动合并视频，特别解决了苹果CMS原始采集速度慢和重名视频数据的问题。",
+	"list": [
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.2.1 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">视频管理<br>1.视频管理新增：筛选视频按更新时间筛选。<br>2.视频管理新增：批量合并，支持指定分类合并和包含分类合并 支持自定义本次合并专属规则或者使用系统合并规则。清空全部数据给出倒计时提醒避免误删。<br>3.视频管理优化：固定筛选框和按钮分页，增加双击复制名称，双击播放地址复制地址。<br><br>一键验证<br>4.一键验证：新增菜单视频地址有效验证可检查有效和批量替换<br>5.一键验证：新增图片合并验证，新增封面图 海报图检测可合并的资源并手动确认后加入合并规则库。<br><br>合并规则库<br>6.合并规则库：新增批量导入和批量导出功能，批量修改状态，批量修改保留策略，修改按钮，选择删除按钮。<br>7.合并规则库：修复分页筛选查询一直是一样的数据问题，优化合并规则库存储播放器编码问题<br><br>定时任务<br>8.优化全局 Cron 表达式生成器定时任务时间生成器<br><br>自动合并<br>9.优化自动合并，合并完成才展示合并日志问题。<br><br>采集管理<br>10.采集管理新增：一键解绑，可以一键解除所有资源站的分类绑定。<br>11.采集管理新增：采集源列表给每个采集加个播放组 / 年份指定保留，设定要保留的播放器代码 (如:qq,youku), 系统会采集影片时，未指定的播放器将被过滤，不填任何内容 就是全部保留。采集源列表增加分页和筛选，增加测试采集源接口连通性。<br>12.修复问题：直连入库和接口入库，备注信息是时间问题，优化入库精准并且采集所有字段都入库。<br>13.采集管理新增：入库选择可选择哪些入库哪些不入库<br>14.优化采集一键绑定分类匹配更加顺滑<br>15.采集管理新增：资源库分类新增 同步分类 一键同步分类<br><br>程序配置 / 系统设置<br>16.程序配置新增：自定义后台管理地址（升级后输入 /login 进行登录）<br>17.系统设置新增：规则库精准播放编码匹配开关<br><br>播放器<br>18.新增播放器功能菜单：播放器支持多个内核，支持广告样式自定义。<br><br><strong>重要提示：</strong><br>每次更新完成后，请在系统设置和程序配置点击一次保存</span></div>",
+			"updata": "2026-11-01",
+			"version": "1.2.1"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.2.0 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.修复打分模式:手动验证和自动合并问题，手动验证可以合并，自动合并却不可以的问题<br>2.采集任务页面 新增: 一键停止所有任务按钮,并且优化偶尔采集进度不动问题<br>3.程序配置 新增:采集性能配置(智能配置避免并发采集量太大高占用CPU)增加熔断避免瞬红cpu。<br>4.程序配置 新增:程序重启配置（页面可手动重启程序）<br>5.api接口入库方式 采集任务 某个影片失败时加返回的失败信息。<br>6.修复采集任务页面 失败数一直是 0<br>7.优化手机端白色风格菜单样式<br>8.优化内存占用新增 采集模块内存监控<br>9.优化视频管理手动验证合并页面样式<br>10.新增菜单功能:合并规则库,自动记录手动合并到规则库，在系统配置中可更改，而且支持手动新增规则（这样解决下次自动采集重复数据没有匹配到但是不更新问题）<br>11.新增菜单:系统更新 ,自动检测版本升级，点击升级自动处理升级并重启<br>12.采集数据库入库方式:定时/手动方式加可控重名合并规则进行排查后入库做到实时重名合并。(大量采集建议关闭，仅日采开启)<br>13.视频管理新增:清空所有视频按钮，批量操作视频按钮。<br><br><strong>更新后操作提示：</strong><br>更新完成后，请保存系统配置、程序配置。</span></div>",
+			"updata": "2026-08-17",
+			"version": "1.2.0"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.9 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.修复视频查询单独名称查询问题<br>2.修复长时间占用内存问题<br>3.新增:一键验证菜单:自动合并验证可一键验证<br>4.新增:一键图片有效验证并且可批量替换和一键替换，验证记录可查看<br>5.修复采集绑定分类问题，绑定一次分类然后又取消绑定分类会在采集任务还会采集问题。<br>6.视频管理：查看内容新增海报图查看,分页可以手动填入页码进行查询并且优化查询。<br>7.采集新增采集月和自定义时间采集</span></div>",
+			"updata": "2026-07-16",
+			"version": "1.1.9"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.8 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">[x] 1.视频管理添加多个筛选<br>[x] 2.开启图片防盗链可填入域名前缀或者选择自带防盗接口<br>[x] 3.连接cms数据库默认前台自定义配<br>[x] 4.本地数据存储方式更换sqlite数据库<br>[x] 5.新增程序配置菜单:可配置合并/采集日志保留天数，登录密钥配置<br>[x] 6.优化合并日志查看详情大数据卡顿问题,新增合并日志详情页<br>[x] 7.优化授权问题总出现自动掉授权问题<br><br><strong>更新后操作提示：</strong><br>版本更新完成启动前，可删除目录：<br>config/backup_json<br>config/merge<br>本次更新不再同步历史合并日志数据</span></div>",
+			"updata": "2026-06-27",
+			"version": "1.1.8"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.7 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1.让采集转发，接口入库方式速度更快<br>2.白色风格为默认风格<br>3.系统配置可以设置图片防盗链是否开启<br>4.优化项目启动端口自定义问题（请看8.3.2文档操作）<br>5.优化合并规则，严格/打分合并模式加入:扩展分类，简介，详情，剧集<br>6.合并日志优化:跳过详情不展示问题<br>7.视频管理:新增一键合并按钮，新增简介 详情<br>8.增强合并:标题清洗开关: 可控制清洗后是否保存清洗后的影名<br>9.视频管理:新增手动验证，选两个或多个视频进行合并验证,展示是否可合并以及合并不上的原因是什么。</span></div>",
+			"updata": "2026-06-14",
+			"version": "1.1.7"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.6 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1. 采集/合并:优化内存占用，优化线程避免拥堵<br>2.合并/采集日志配置都要根据配置文件的days进行保留天数<br>3.采集任务:分页+日期区间查询+源id查询+倒计时特效<br>4.并发采集太快导致访问太频繁，被对方服务器限制优化<br>5.合并日志首次使用过大问题优化<br>6.新增一个白色风格框架，可以一键切换暗黑或白色<br>7.登录问题优化</span></div>",
+			"updata": "2026-06-04",
+			"version": "1.1.6"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-cyan);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.5 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1. 增强合并视频:数据清洗数据合并乱合并问题。<br>2. 合并日志：优化页面加载大数据卡顿问题<br>3. 采集管理:新增采集兼容json格式<br>4. 页面UI:更新整个页面UI设计风格<br>5. 采集任务:优化采集速度，可以手动停止采集任务，可以多个采集任务并行，去除自动合并重名数据<br>6. 资源库分类:美化一键绑定样式，绑定本地分类自动展示子父级归类<br>7. 定时采集配置:可编辑定时任务地址，改变采集地址时候自动变更定时任务,同一个源站可创建多个任务<br>8. 增加新菜单:采集任务管理,可预览实时采集任务执行状态可手动停止采集任务。</span></div>",
+			"updata": "2026-05-22",
+			"version": "1.1.5"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid var(--accent-blue);border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.4 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">1. 系统设置新增:增强合并匹配模式配置开启后 自动合并多级匹配规则将失效完全按照增强合并规则。<br>2. 优化增强合并日志: 显示具体合并不上的原因<br>3. 优化设置页面: 选择框展示不全问题<br>4. 优化采集页面绑定分类: 重新绑定分类偶尔出现不保存问题，重新绑定分类可以选择不选（也就是选择 请选择本地分类）<br>5. 优化采集管理 入库问题:关闭cms接口入库方式使用纯入库方式会出现没有分类问题<br>6. 优化视频管理:合并视频弹框 提示加载中...问题</span></div>",
+			"updata": "2026-04-19",
+			"version": "1.1.4"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #818cf8;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.3 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 视频管理：优化视频管理搜索支持所有视频和重名视频，优化查询速度支持百万级查询<br>• 视频管理：优化视频页面搜索可以回车查询<br>• 合并日志:新增合并日志记录手动合并和自动合并的日志信息（仅保留30天的）<br>• 合并日志:新增合并日志记录手动合并和自动合并的大小控制<br>• 采集管理:任务列表仅保留30天的，避免占用空间。</span></div>",
+			"updata": "2026-04-01",
+			"version": "1.1.3"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #22d3ee;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.2 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 定时采集功能：新增定时采集功能，支持配置Cron表达式实现定时自动采集<br>• Cron表达式生成器：系统配置页面增加Cron表达式生成器，方便用户生成定时任务时间表达式<br>• 系统配置优化：优化系统配置定时任务功能<br>• 优化:采集管理无法读取任务列表问题 日志不生成问题<br>• 优化登录漏洞，优化采集失败问题，优化数据库连接，优化搜索展示页面<br>• 采集任务执行速度，数据库入库方式 ，采集重名入库问题 增加规则匹配</span></div>",
+			"updata": "2026-03-28",
+			"version": "1.1.2"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #fb923c;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.1 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 视频管理优化：视频管理页面点击查看视频时支持显示播放地址<br>• 页面美化：美化视频管理页面，增加预加载效果</span></div>",
+			"updata": "2026-03-26",
+			"version": "1.1.1"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #7dcfff;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.1.0 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 页面导航优化：视频页面添加导航到采集页面的链接<br>• 采集任务弹框美化：美化采集任务弹框，提升用户体验<br>• 采集资源库绑定：新增采集资源库绑定资源库分类功能<br>• 分类表格显示：资源库绑定页面支持显示隐藏分类表格<br>• 分类绑定操作：新增一键绑定分类和一键取消绑定功能<br>• 用户信息优化：清空userMap，避免旧用户信息残留<br>• 响应式布局：优化页面样式响应式布局，适配不同设备</span></div>",
+			"updata": "2026-03-25",
+			"version": "1.1.0"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #c7a0ff;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.9 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 图片加载问题：修复查看页面图片不加载的问题</span></div>",
+			"updata": "2026-03-24",
+			"version": "1.0.9"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #a0aec0;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.8 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 采集功能优化：点击资源站可进行搜索采集，也可以绑定资源站的分类id<br>• XML采集完善：完善XML格式采集入库功能<br>• 采集功能完善：整体完善采集功能</span></div>",
+			"updata": "2026-03-23",
+			"version": "1.0.8"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #67e8f9;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.7 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 文件操作优化：在文件删除操作中添加了重试逻辑<br>• 日志记录：增加了详细的日志记录，便于调试<br>• 线程处理：确保线程中断状态被正确处理<br>• 批量采集入库支持数据库入库和接口入库两种方式<br>• 页面提示：优化页面提示信息<br>• 合并更新时间：完善新增是否开启合并更新时间功能，自动合并和手动合并均有效</span></div>",
+			"updata": "2026-03-22",
+			"version": "1.0.7"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #fb923c;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.6 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 手动合并优化：优化手动合并问题<br>• 包引入优化：优化包引入<br>• 系统配置完善：完善系统配置可配置自动运行重名信息<br>• 管理后台：完善小管理后台处理重名数据功能<br>• 图片接口优化：修复图片接口401问题</span></div>",
+			"updata": "2026-03-21",
+			"version": "1.0.6"
+		},
+		{
+			"con": "<div style=\"padding:12px;background:var(--bg-card);border-left:4px solid #7dcfff;border-radius:var(--radius-sm);margin:6px 0;\"><strong style=\"color:var(--text-primary);font-size:15px;\">v1.0.5 更新说明</strong><br><span style=\"color:var(--text-secondary);font-size:13px;line-height:1.7;\">• 配置页功能：新增配置页功能，是否开启合并更新时间<br>• 采集管理页面：新增采集管理页面，增加采集绑定功能<br>• 系统配置：新增管理页面等系统配置<br>• 重名数据处理：优化重名数据处理，新增手动合并是否验证多级匹配规则</span></div>",
+			"updata": "2026-03-20",
+			"version": "1.0.5"
+		}
+	]
 }
